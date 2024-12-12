@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiveM Loading Screen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="video-container">
+       
+        <iframe 
+            id="backgroundVideo"
+            src="https://www.youtube.com/embed/KWAHGy_eee4?autoplay=1&loop=1&controls=0&playlist=KWAHGy_eee4"
+            frameborder="0"
+            allow="autoplay; loop; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Overlay Content -->
+    <div class="overlay">
+
+        <div class="welcome">
+            <span>Welcome, </span><span id="playerName">Loading...</span>
+        </div>
+
+        <!-- Tips Section -->
+        <div class="tips" id="tips">
+            Loading tips will appear here...
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- Keyboard Controls -->
+        <div class="keybinds">
+            <h3>Keyboard Bindings</h3>
+
+        </div>
+    </div>
+
+    <!-- Blog Block -->
+    <div class="blog-container">
+        <!-- Banner Image from Discord -->
+        <div class="banner">
+            <img src="https://media.discordapp.net/attachments/1295753505994309795/1295753510188613676/pic05.png?ex=6736b03e&is=67355ebe&hm=5e5aec282cd6f032811e7cf1a1eba3d9af8f03a6ed72767d231f2d0617a49f64&=&format=webp&quality=lossless&width=1632&height=905" alt="Blog Banner">
+        </div>
+
+        <!-- Blog Content -->
+        <div class="blog-content">
+            <h1 class="blog-title">Welcome to the qs-scripts.com</h1>
+            <p class="blog-text">Explore the latest updates and features. If you have any questions, contact our support team!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
